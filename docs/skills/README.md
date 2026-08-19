@@ -20,16 +20,16 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 
 ## Coverage summary
 
-- Total rows: **450**
+- Total rows: **488**
 - Rows with session-backed install dates: **325**
-- Rows still carrying any evidence gap: **125**
+- Rows still carrying any evidence gap: **163**
 - Rows whose **source evidence** improved from inferred/implicit in the previous draft to confirmed in this draft: **325**
 - Rows whose **date evidence** improved from plain date/timestamp presentation in the previous draft to explicitly session-backed in this draft: **325**
-- New rows added because the catalog now scans nested skill paths instead of only top-level directories: **96**
+- New rows added because the catalog now scans nested skill paths instead of only top-level directories: **120**
 
 ## Rows still carrying gaps
 
-### Source gaps (125)
+### Source gaps (163)
 
 - `.archive/audiocraft-audio-generation`
 - `.archive/automation-source-control`
@@ -80,6 +80,7 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `devops/crowdsec-npm-web-ingestion`
 - `devops/crowdsec-remediation-operations`
 - `devops/dashboard-data-operations`
+- `devops/dashboard-visual-verification`
 - `devops/desktop-agent-remote-backends`
 - `devops/docker-portainer-stack-operations`
 - `devops/hermes-kanban-operations`
@@ -89,22 +90,33 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `devops/mcp-gateway-readonly-operations`
 - `devops/mrdtech-infra-monitoring`
 - `devops/pbs-datastore-integrity-operations`
+- `devops/portainer-stack-delivery`
 - `devops/proxmox-guest-maintenance`
 - `devops/proxmox-maintenance-operations`
+- `devops/public-safe-infrastructure-documentation`
+- `devops/remote-command-wrapper-hygiene`
 - `devops/remote-stack-deployment-from-gateway-sessions`
+- `devops/reverse-proxy-host-operations`
+- `devops/rustdesk-web-client-operations`
 - `devops/scheduled-automation-migrations`
 - `devops/sdlc-review`
 - `devops/ssh-key-bootstrap-and-rotate`
+- `devops/telegram-workflow-routing-forensics`
+- `devops/urbackup-operations`
+- `devops/verification-scope-isolation`
 - `devops/wordpress-docker-content-operations`
 - `diagnosing-bugs`
 - `documentation-and-adrs`
 - `doubt-driven-development`
 - `email/email-inbox-triage`
 - `frontend-ui-engineering`
+- `frontend/presence-and-identity-ux`
 - `gaming/gaming-automation-and-servers`
 - `git-workflow-and-versioning`
 - `github/github-issue-to-pr`
+- `github/github-live-publish-verification`
 - `github/github-profile-readme-operations`
+- `github/github-readme-render-verification`
 - `github/github-workflows`
 - `github/public-repo-export-sanitization`
 - `github/single-repo-operations`
@@ -122,12 +134,15 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `performance-optimization`
 - `planning-and-task-breakdown`
 - `productivity/apple-ecosystem-automation`
+- `productivity/box`
 - `productivity/document-to-action-items`
 - `productivity/docx`
+- `productivity/embedding-runtime-troubleshooting`
 - `productivity/external-app-operations`
 - `productivity/gbrain-operations`
 - `productivity/knowledge-base-curation-workflows`
 - `productivity/meeting-action-items`
+- `productivity/n8n-execution-forensics`
 - `productivity/n8n-workflow-operations`
 - `productivity/obsidian-session-note-capture`
 - `productivity/pdf`
@@ -135,6 +150,7 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `productivity/product-price-monitor`
 - `productivity/productivity-api-automation`
 - `productivity/session-librarian`
+- `productivity/session-output-forensics`
 - `productivity/stepwise-verification-audits`
 - `productivity/weekly-review-planning`
 - `productivity/xlsx`
@@ -144,7 +160,13 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `research/research-discovery-and-writing`
 - `security-and-hardening`
 - `shipping-and-launch`
+- `software-development/aspnet-core-backend-scaffold-verification`
+- `software-development/browser-proofed-ui-verification`
+- `software-development/browser-state-verification`
+- `software-development/evidence-first-ui-delivery`
+- `software-development/frontend-live-ui-verification`
 - `software-development/inspecting-hermes-desktop-dom`
+- `software-development/live-ui-verification-workflows`
 - `software-development/pwa-installability-workflows`
 - `software-development/quality-review-workflows`
 - `software-development/software-delivery-workflows`
@@ -152,12 +174,28 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `software-development/static-site-media-integration`
 - `software-development/static-site-release-verification`
 - `software-development/static-web-layout-debugging`
+- `software-development/verifying-dotnet-project-scaffolds`
+- `software-development/vue-inline-picker-workflows`
 - `source-driven-development`
 - `spec-driven-development`
+- `superpowers:brainstorming`
+- `superpowers:dispatching-parallel-agents`
+- `superpowers:executing-plans`
+- `superpowers:finishing-a-development-branch`
+- `superpowers:receiving-code-review`
+- `superpowers:requesting-code-review`
+- `superpowers:subagent-driven-development`
+- `superpowers:systematic-debugging`
+- `superpowers:test-driven-development`
+- `superpowers:using-git-worktrees`
+- `superpowers:using-superpowers`
+- `superpowers:verification-before-completion`
+- `superpowers:writing-plans`
+- `superpowers:writing-skills`
 - `test-driven-development`
 - `using-agent-skills`
 
-### Install-date gaps (125)
+### Install-date gaps (163)
 
 - `.archive/audiocraft-audio-generation`
 - `.archive/automation-source-control`
@@ -208,6 +246,7 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `devops/crowdsec-npm-web-ingestion`
 - `devops/crowdsec-remediation-operations`
 - `devops/dashboard-data-operations`
+- `devops/dashboard-visual-verification`
 - `devops/desktop-agent-remote-backends`
 - `devops/docker-portainer-stack-operations`
 - `devops/hermes-kanban-operations`
@@ -217,22 +256,33 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `devops/mcp-gateway-readonly-operations`
 - `devops/mrdtech-infra-monitoring`
 - `devops/pbs-datastore-integrity-operations`
+- `devops/portainer-stack-delivery`
 - `devops/proxmox-guest-maintenance`
 - `devops/proxmox-maintenance-operations`
+- `devops/public-safe-infrastructure-documentation`
+- `devops/remote-command-wrapper-hygiene`
 - `devops/remote-stack-deployment-from-gateway-sessions`
+- `devops/reverse-proxy-host-operations`
+- `devops/rustdesk-web-client-operations`
 - `devops/scheduled-automation-migrations`
 - `devops/sdlc-review`
 - `devops/ssh-key-bootstrap-and-rotate`
+- `devops/telegram-workflow-routing-forensics`
+- `devops/urbackup-operations`
+- `devops/verification-scope-isolation`
 - `devops/wordpress-docker-content-operations`
 - `diagnosing-bugs`
 - `documentation-and-adrs`
 - `doubt-driven-development`
 - `email/email-inbox-triage`
 - `frontend-ui-engineering`
+- `frontend/presence-and-identity-ux`
 - `gaming/gaming-automation-and-servers`
 - `git-workflow-and-versioning`
 - `github/github-issue-to-pr`
+- `github/github-live-publish-verification`
 - `github/github-profile-readme-operations`
+- `github/github-readme-render-verification`
 - `github/github-workflows`
 - `github/public-repo-export-sanitization`
 - `github/single-repo-operations`
@@ -250,12 +300,15 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `performance-optimization`
 - `planning-and-task-breakdown`
 - `productivity/apple-ecosystem-automation`
+- `productivity/box`
 - `productivity/document-to-action-items`
 - `productivity/docx`
+- `productivity/embedding-runtime-troubleshooting`
 - `productivity/external-app-operations`
 - `productivity/gbrain-operations`
 - `productivity/knowledge-base-curation-workflows`
 - `productivity/meeting-action-items`
+- `productivity/n8n-execution-forensics`
 - `productivity/n8n-workflow-operations`
 - `productivity/obsidian-session-note-capture`
 - `productivity/pdf`
@@ -263,6 +316,7 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `productivity/product-price-monitor`
 - `productivity/productivity-api-automation`
 - `productivity/session-librarian`
+- `productivity/session-output-forensics`
 - `productivity/stepwise-verification-audits`
 - `productivity/weekly-review-planning`
 - `productivity/xlsx`
@@ -272,7 +326,13 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `research/research-discovery-and-writing`
 - `security-and-hardening`
 - `shipping-and-launch`
+- `software-development/aspnet-core-backend-scaffold-verification`
+- `software-development/browser-proofed-ui-verification`
+- `software-development/browser-state-verification`
+- `software-development/evidence-first-ui-delivery`
+- `software-development/frontend-live-ui-verification`
 - `software-development/inspecting-hermes-desktop-dom`
+- `software-development/live-ui-verification-workflows`
 - `software-development/pwa-installability-workflows`
 - `software-development/quality-review-workflows`
 - `software-development/software-delivery-workflows`
@@ -280,8 +340,24 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `software-development/static-site-media-integration`
 - `software-development/static-site-release-verification`
 - `software-development/static-web-layout-debugging`
+- `software-development/verifying-dotnet-project-scaffolds`
+- `software-development/vue-inline-picker-workflows`
 - `source-driven-development`
 - `spec-driven-development`
+- `superpowers:brainstorming`
+- `superpowers:dispatching-parallel-agents`
+- `superpowers:executing-plans`
+- `superpowers:finishing-a-development-branch`
+- `superpowers:receiving-code-review`
+- `superpowers:requesting-code-review`
+- `superpowers:subagent-driven-development`
+- `superpowers:systematic-debugging`
+- `superpowers:test-driven-development`
+- `superpowers:using-git-worktrees`
+- `superpowers:using-superpowers`
+- `superpowers:verification-before-completion`
+- `superpowers:writing-plans`
+- `superpowers:writing-skills`
 - `test-driven-development`
 - `using-agent-skills`
 
@@ -455,6 +531,7 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `devops/crowdsec-npm-web-ingestion` | nested | local skill library path only | path-only | Point a containerized CrowdSec engine at Nginx Proxy Manager (or any reverse-proxy) web-access logs so it actually ingests web-attack traffic, plus restore real client IPs behind Cloudflare. Use when a CrowdSec engine shows "no alerts / no activity" but the host fronts web services — it's almost always reading only system logs (syslog/auth.log), not the proxy access logs where the attacks are. | 2026-06-30 | filesystem-derived | Present as skill `devops/crowdsec-npm-web-ingestion`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/crowdsec-remediation-operations` | nested | local skill library path only | path-only | Operate CrowdSec remediation components and bouncers, especially host-level firewall bouncers attached to Dockerized or native CrowdSec engines. | 2026-07-25 | filesystem-derived | Present as skill `devops/crowdsec-remediation-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/dashboard-data-operations` | nested | local skill library path only | path-only | Operate internal infrastructure dashboards through their data/API layer: discover schemas, add/update rows, avoid code edits, and verify rendered UI. | 2026-07-16 | filesystem-derived | Present as skill `devops/dashboard-data-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/dashboard-visual-verification` | nested | local skill library path only | path-only | Use when dashboards need live screenshot proof. | 2026-08-15 | filesystem-derived | Present as skill `devops/dashboard-visual-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/desktop-agent-remote-backends` | nested | local skill library path only | path-only | Connect desktop/GUI agent clients to existing remote agent backends instead of accidentally using a fresh local profile. Use for Hermes Desktop remote backend setup, dashboard/API/WebSocket exposure, authentication, and verification. | 2026-06-20 | filesystem-derived | Present as skill `devops/desktop-agent-remote-backends`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/docker-portainer-stack-operations` | nested | local skill library path only | path-only | Operate Docker Compose and Portainer-managed stacks safely on MRDTech hosts: locate live compose files, preserve project names, fix volume references, validate/recreate stacks, and verify mounts without data loss. | 2026-08-10 | filesystem-derived | Present as skill `devops/docker-portainer-stack-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/hermes-kanban-operations` | nested | local skill library path only | path-only | Use when operating Hermes Kanban boards, orchestrator profiles, worker profiles, task lifecycle, and event-driven webhook-triggered agent runs. | 2026-06-10 | filesystem-derived | Present as skill `devops/hermes-kanban-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -464,12 +541,20 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `devops/mcp-gateway-readonly-operations` | nested | local skill library path only | path-only | Use when operating a read-only MCP gateway. | 2026-08-08 | filesystem-derived | Present as skill `devops/mcp-gateway-readonly-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/mrdtech-infra-monitoring` | nested | local skill library path only | path-only | Query and monitor MRDTech homelab infrastructure (Proxmox, PBS, Wazuh, CrowdSec, AdGuard, UniFi, Docker, Hyper-V) and build scheduled briefing cron jobs. Use for any "check / summarize / monitor / alert on" task touching these services, or when building Hermes cron jobs that poll them. | 2026-06-17 | filesystem-derived | Present as skill `devops/mrdtech-infra-monitoring`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/pbs-datastore-integrity-operations` | nested | local skill library path only | path-only | Investigate Proxmox Backup Server datastore corruption, missing chunks, GC/verify failures, and run low-impact exhaustive integrity sweeps with evidence-first reporting. | 2026-07-23 | filesystem-derived | Present as skill `devops/pbs-datastore-integrity-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/portainer-stack-delivery` | nested | local skill library path only | path-only | Use when deploying Portainer-managed Compose stacks. Verify. | 2026-08-14 | filesystem-derived | Present as skill `devops/portainer-stack-delivery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/proxmox-guest-maintenance` | nested | local skill library path only | path-only | Safely audit and update Proxmox guests at MRDTech, especially LXC package maintenance via pct exec, Wazuh package holds, and service-specific verification gates. | 2026-07-21 | filesystem-derived | Present as skill `devops/proxmox-guest-maintenance`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/proxmox-maintenance-operations` | nested | local skill library path only | path-only | Safely audit and update Proxmox hosts, LXCs, and VMs in MRDTech-style environments: backup gates, package holds, confold upgrades, service-specific DNS/VPN verification, and no-reboot host maintenance. | 2026-07-21 | filesystem-derived | Present as skill `devops/proxmox-maintenance-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/public-safe-infrastructure-documentation` | nested | local skill library path only | path-only | Use when drafting infra docs for public release. | 2026-08-13 | filesystem-derived | Present as skill `devops/public-safe-infrastructure-documentation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/remote-command-wrapper-hygiene` | nested | local skill library path only | path-only | Use when SSH wrappers break on quoting. | 2026-08-17 | filesystem-derived | Present as skill `devops/remote-command-wrapper-hygiene`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/remote-stack-deployment-from-gateway-sessions` | nested | local skill library path only | path-only | Use when deploying remote stacks from a live gateway. | 2026-07-29 | filesystem-derived | Present as skill `devops/remote-stack-deployment-from-gateway-sessions`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/reverse-proxy-host-operations` | nested | local skill library path only | path-only | Use when NPM proxy hosts or SSL certs need verified repair. | 2026-08-17 | filesystem-derived | Present as skill `devops/reverse-proxy-host-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/rustdesk-web-client-operations` | nested | local skill library path only | path-only | Use when deploying or debugging RustDesk web clients. | 2026-08-17 | filesystem-derived | Present as skill `devops/rustdesk-web-client-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/scheduled-automation-migrations` | nested | local skill library path only | path-only | Migrate scheduled automation from cron or Hermes no_agent jobs into native n8n workflows, verify delivery or local-state side effects, and decommission the old scheduler safely. | 2026-06-26 | filesystem-derived | Present as skill `devops/scheduled-automation-migrations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/sdlc-review` | nested | local skill library path only | path-only | Review Kanban handoffs and route verified outcomes. | 2026-08-11 | filesystem-derived | Present as skill `devops/sdlc-review`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/ssh-key-bootstrap-and-rotate` | nested | local skill library path only | path-only | Bootstrap hardened key-based SSH onto a host using a one-time password, scope sudo, then rotate the exposed password. Use when given SSH password credentials that will leak into history/journald/transcript and you need to convert to durable key auth and burn the password. | 2026-06-14 | filesystem-derived | Present as skill `devops/ssh-key-bootstrap-and-rotate`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/telegram-workflow-routing-forensics` | nested | local skill library path only | path-only | Use when Telegram routing in n8n is wrong. Prove mapping. | 2026-08-17 | filesystem-derived | Present as skill `devops/telegram-workflow-routing-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/urbackup-operations` | nested | local skill library path only | path-only | Use when UrBackup logs/diagnostics are needed via database. | 2026-08-14 | filesystem-derived | Present as skill `devops/urbackup-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/verification-scope-isolation` | nested | local skill library path only | path-only | Use when proof scope may differ. Verify IDs first. | 2026-08-15 | filesystem-derived | Present as skill `devops/verification-scope-isolation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/wordpress-docker-content-operations` | nested | local skill library path only | path-only | Use when editing live WordPress text in Docker. | 2026-08-02 | filesystem-derived | Present as skill `devops/wordpress-docker-content-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `diagnosing-bugs` | top-level | https://github.com/mattpocock/skills | inferred-name-match | Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow. | 2026-08-13 | filesystem-derived | Upstream repo is strongly suggested by name/path, but no preserved install-write record was found in retained history. No session-backed install date found; using SKILL.md mtime. |
 | `documentation-and-adrs` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
@@ -499,12 +584,15 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `fleet-hunting-with-velociraptor` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Deploy a Velociraptor server and agents, then author VQL (Velociraptor Query Language) artifacts and run them as fleet-wide hunts, on-demand forensic collections, or standalone offline collectors. Use when hunting a TTP across hundreds or thousands of endpoints, collecting forensic artifacts during incident response without re-imaging, or generating collectors for unmanaged/air-gapped hosts. | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `frontend-design` | top-level | https://github.com/anthropics/skills | confirmed-session | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 frontend-design review/write session. Confirmed from retained 2026-08-13 install session. |
 | `frontend-ui-engineering` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
+| `frontend/presence-and-identity-ux` | nested | local skill library path only | path-only | Use when presence panels or identity colors scale. | 2026-08-15 | filesystem-derived | Present as skill `frontend/presence-and-identity-ux`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `gaming/gaming-automation-and-servers` | nested | local skill library path only | path-only | Use when operating gaming-related tooling: hosting modded Minecraft servers or playing/automating Pokemon through emulators and RAM-state probes. | 2026-06-10 | filesystem-derived | Present as skill `gaming/gaming-automation-and-servers`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `generating-forensic-timelines-with-hayabusa` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Run Hayabusa against collected Windows EVTX files to apply Sigma detection rules and produce a prioritized, chronological CSV/JSON timeline with severity levels, MITRE ATT&CK mappings, and per-host/per-Event-ID metrics. Use during DFIR triage to turn raw event logs into a fast, SIEM-free incident timeline, or to export results into Timesketch or Timeline Explorer for collaborative analysis. | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `generating-threat-intelligence-reports` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Generates structured cyber threat intelligence reports at strategic, | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `git-workflow-and-versioning` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
 | `github/github-issue-to-pr` | nested | local skill library path only | path-only | Carry a GitHub issue to a verified PR with honest CI state. | 2026-08-10 | filesystem-derived | Present as skill `github/github-issue-to-pr`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `github/github-live-publish-verification` | nested | local skill library path only | path-only | Use when GitHub docs/README pushes must be proven live. | 2026-08-14 | filesystem-derived | Present as skill `github/github-live-publish-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/github-profile-readme-operations` | nested | local skill library path only | path-only | Update and verify GitHub profile README repositories (`<owner>/<owner>`), especially project card grids, renderer-safe markup, and safe push/verification workflows. | 2026-08-10 | filesystem-derived | Present as skill `github/github-profile-readme-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `github/github-readme-render-verification` | nested | local skill library path only | path-only | Use when a pushed GitHub README must be proven live. | 2026-08-13 | filesystem-derived | Present as skill `github/github-readme-render-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/github-workflows` | nested | local skill library path only | path-only | Use when working with GitHub repositories end-to-end: auth, repo management, issues, PRs, code review, CI, releases, and codebase inspection. | 2026-07-20 | filesystem-derived | Present as skill `github/github-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/public-repo-export-sanitization` | nested | local skill library path only | path-only | Use when exporting production-derived or private infrastructure/application trees into a public GitHub repository with sanitization, leak scanning, staged diff review, and confirmation-gated push. | 2026-07-28 | filesystem-derived | Present as skill `github/public-repo-export-sanitization`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/single-repo-operations` | nested | local skill library path only | path-only | Use when one repo only is in scope. Confirm and stay on it. | 2026-08-09 | filesystem-derived | Present as skill `github/single-repo-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -679,12 +767,15 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `prioritizing-vulnerabilities-with-cvss-scoring` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | The Common Vulnerability Scoring System (CVSS) is the industry standard | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `processing-stix-taxii-feeds` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Processes STIX 2.1 threat intelligence bundles delivered via TAXII 2.1 | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `productivity/apple-ecosystem-automation` | nested | local skill library path only | path-only | Use when automating Apple ecosystem tasks on macOS: Notes, Reminders, iMessage/SMS, Find My devices, and GUI computer-use fallbacks. | 2026-06-10 | filesystem-derived | Present as skill `productivity/apple-ecosystem-automation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/box` | nested | local skill library path only | path-only | Box manages cloud files, sharing, search, and metadata. | 2026-08-14 | filesystem-derived | Present as skill `productivity/box`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/document-to-action-items` | nested | local skill library path only | path-only | Extract cited obligations, deadlines, tasks from documents. | 2026-08-08 | filesystem-derived | Present as skill `productivity/document-to-action-items`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/docx` | nested | local skill library path only | path-only | Create, read, edit, template, and review Word .docx files. | 2026-08-10 | filesystem-derived | Present as skill `productivity/docx`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/embedding-runtime-troubleshooting` | nested | local skill library path only | path-only | Use when embedding imports fail from runtime/timeout issues. | 2026-08-14 | filesystem-derived | Present as skill `productivity/embedding-runtime-troubleshooting`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/external-app-operations` | nested | local skill library path only | path-only | Operate external user-facing apps and CLIs from Hermes: email via Himalaya, Obsidian vault files, X/Twitter via xurl, Yuanbao groups/DMs, OpenHue lights, and stateful Jupyter kernels. | 2026-06-22 | filesystem-derived | Present as skill `productivity/external-app-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/gbrain-operations` | nested | local skill library path only | path-only | Use when operating GBrain. Setup, import, retry, verify. | 2026-08-12 | filesystem-derived | Present as skill `productivity/gbrain-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/knowledge-base-curation-workflows` | nested | local skill library path only | path-only | Curate operational knowledge bases from session history, WikiDocs, Obsidian vaults, and other Markdown-backed documentation. | 2026-07-26 | filesystem-derived | Present as skill `productivity/knowledge-base-curation-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/meeting-action-items` | nested | local skill library path only | path-only | Turn meeting notes into cited decisions, owners, tickets. | 2026-08-10 | filesystem-derived | Present as skill `productivity/meeting-action-items`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/n8n-execution-forensics` | nested | local skill library path only | path-only | Use when n8n webhooks stall. Inspect executions first. | 2026-08-17 | filesystem-derived | Present as skill `productivity/n8n-execution-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/n8n-workflow-operations` | nested | local skill library path only | path-only | Build, debug, patch, and verify n8n workflows on MRDTech-style self-hosted instances, especially SSH/file-writing workflows and execution forensics. | 2026-08-12 | filesystem-derived | Present as skill `productivity/n8n-workflow-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/obsidian-session-note-capture` | nested | local skill library path only | path-only | Use at the end of every substantive working session to write a durable summary note into Michael's Obsidian Brain vault. Skip trivial, empty, greeting-only, password-only, or low-value sessions. This is a standing Gilfoyle workflow for preserving useful session outcomes. | 2026-06-23 | filesystem-derived | Present as skill `productivity/obsidian-session-note-capture`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/pdf` | nested | local skill library path only | path-only | Create, read, merge, fill, and secure PDF files. | 2026-08-12 | filesystem-derived | Present as skill `productivity/pdf`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -692,6 +783,7 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `productivity/product-price-monitor` | nested | local skill library path only | path-only | Watch product, flight, or listing prices; alert on target. | 2026-08-10 | filesystem-derived | Present as skill `productivity/product-price-monitor`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/productivity-api-automation` | nested | local skill library path only | path-only | Use when automating productivity SaaS APIs and documents: Google Workspace, Airtable, Linear, Notion, maps/geocoding, PDFs, PowerPoint, OCR, and meeting pipelines. | 2026-06-16 | filesystem-derived | Present as skill `productivity/productivity-api-automation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/session-librarian` | nested | local skill library path only | path-only | Organize sessions by prompt: find, rename, archive, prune. | 2026-08-12 | filesystem-derived | Present as skill `productivity/session-librarian`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/session-output-forensics` | nested | local skill library path only | path-only | Use when users want raw output or session tracing. | 2026-08-18 | filesystem-derived | Present as skill `productivity/session-output-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/stepwise-verification-audits` | nested | local skill library path only | path-only | Use when live audits must run one step at a time. | 2026-08-09 | filesystem-derived | Present as skill `productivity/stepwise-verification-audits`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/weekly-review-planning` | nested | local skill library path only | path-only | Weekly reset: commitments, stalled work, next-week plan. | 2026-08-10 | filesystem-derived | Present as skill `productivity/weekly-review-planning`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/xlsx` | nested | local skill library path only | path-only | Create, read, edit Excel .xlsx workbooks and CSVs. | 2026-08-10 | filesystem-derived | Present as skill `productivity/xlsx`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -705,7 +797,13 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `scanning-infrastructure-with-nessus` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Tenable Nessus is the industry-leading vulnerability scanner used to | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `security-and-hardening` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
 | `shipping-and-launch` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/aspnet-core-backend-scaffold-verification` | nested | local skill library path only | path-only | Use when fresh ASP.NET Core backends must compile cleanly. | 2026-08-13 | filesystem-derived | Present as skill `software-development/aspnet-core-backend-scaffold-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/browser-proofed-ui-verification` | nested | local skill library path only | path-only | Use when live UI proof is needed. Screenshot and verify. | 2026-08-15 | filesystem-derived | Present as skill `software-development/browser-proofed-ui-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/browser-state-verification` | nested | local skill library path only | path-only | Use when live browser state changes need real-account proof. | 2026-08-15 | filesystem-derived | Present as skill `software-development/browser-state-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/evidence-first-ui-delivery` | nested | local skill library path only | path-only | Use when UI changes need live proof and screenshots. | 2026-08-15 | filesystem-derived | Present as skill `software-development/evidence-first-ui-delivery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/frontend-live-ui-verification` | nested | local skill library path only | path-only | Use when live frontend UI changes need browser proof. | 2026-08-15 | filesystem-derived | Present as skill `software-development/frontend-live-ui-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/inspecting-hermes-desktop-dom` | nested | local skill library path only | path-only | Read the live Hermes desktop DOM/CSS over CDP. | 2026-08-08 | filesystem-derived | Present as skill `software-development/inspecting-hermes-desktop-dom`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/live-ui-verification-workflows` | nested | local skill library path only | path-only | Use when UI changes need live proof and screenshots. | 2026-08-15 | filesystem-derived | Present as skill `software-development/live-ui-verification-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/pwa-installability-workflows` | nested | local skill library path only | path-only | Fix and verify installability for PWA/static web apps, especially Vite or Dockerized self-hosted frontends. | 2026-07-21 | filesystem-derived | Present as skill `software-development/pwa-installability-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/quality-review-workflows` | nested | local skill library path only | path-only | Review and cleanup workflows: exploratory web QA/dogfooding, recent-code simplification via parallel reviewers, and prose humanization/de-AI editing. | 2026-06-22 | filesystem-derived | Present as skill `software-development/quality-review-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/software-delivery-workflows` | nested | local skill library path only | path-only | Use when planning, implementing, debugging, testing, reviewing, or coordinating software changes from idea to verified delivery. | 2026-07-19 | filesystem-derived | Present as skill `software-development/software-delivery-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -713,22 +811,38 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `software-development/static-site-media-integration` | nested | local skill library path only | path-only | Use when adding images to static sites. Optimize and verify. | 2026-08-07 | filesystem-derived | Present as skill `software-development/static-site-media-integration`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/static-site-release-verification` | nested | local skill library path only | path-only | Use when static-site pushes must be proven live in prod. | 2026-08-10 | filesystem-derived | Present as skill `software-development/static-site-release-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/static-web-layout-debugging` | nested | local skill library path only | path-only | Use when static HTML/CSS spacing drifts. | 2026-08-10 | filesystem-derived | Present as skill `software-development/static-web-layout-debugging`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/verifying-dotnet-project-scaffolds` | nested | local skill library path only | path-only | Use when fresh .NET/ASP.NET scaffolds must actually compile. | 2026-08-13 | filesystem-derived | Present as skill `software-development/verifying-dotnet-project-scaffolds`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/vue-inline-picker-workflows` | nested | local skill library path only | path-only | Use when adding inline pickers to Vue composer forms. | 2026-08-15 | filesystem-derived | Present as skill `software-development/vue-inline-picker-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `source-driven-development` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
 | `spec-driven-development` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:brainstorming` | plugin | https://github.com/obra/superpowers | confirmed-session | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation. | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:brainstorming` | plugin | local skill library path only | path-only | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation. | 2026-08-13 | filesystem-derived | Present as skill `superpowers/brainstorming`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:dispatching-parallel-agents` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:dispatching-parallel-agents` | plugin | local skill library path only | path-only | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies | 2026-08-13 | filesystem-derived | Present as skill `superpowers/dispatching-parallel-agents`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:executing-plans` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when you have a written implementation plan to execute in a separate session with review checkpoints | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:executing-plans` | plugin | local skill library path only | path-only | Use when you have a written implementation plan to execute in a separate session with review checkpoints | 2026-08-13 | filesystem-derived | Present as skill `superpowers/executing-plans`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:finishing-a-development-branch` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:finishing-a-development-branch` | plugin | local skill library path only | path-only | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work | 2026-08-13 | filesystem-derived | Present as skill `superpowers/finishing-a-development-branch`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:receiving-code-review` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:receiving-code-review` | plugin | local skill library path only | path-only | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation | 2026-08-13 | filesystem-derived | Present as skill `superpowers/receiving-code-review`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:requesting-code-review` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:requesting-code-review` | plugin | local skill library path only | path-only | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | 2026-08-13 | filesystem-derived | Present as skill `superpowers/requesting-code-review`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:subagent-driven-development` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when executing implementation plans with independent tasks in the current session | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:subagent-driven-development` | plugin | local skill library path only | path-only | Use when executing implementation plans with independent tasks in the current session | 2026-08-13 | filesystem-derived | Present as skill `superpowers/subagent-driven-development`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:systematic-debugging` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:systematic-debugging` | plugin | local skill library path only | path-only | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | 2026-08-13 | filesystem-derived | Present as skill `superpowers/systematic-debugging`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:test-driven-development` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when implementing any feature or bugfix, before writing implementation code | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:test-driven-development` | plugin | local skill library path only | path-only | Use when implementing any feature or bugfix, before writing implementation code | 2026-08-13 | filesystem-derived | Present as skill `superpowers/test-driven-development`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:using-git-worktrees` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:using-git-worktrees` | plugin | local skill library path only | path-only | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback | 2026-08-13 | filesystem-derived | Present as skill `superpowers/using-git-worktrees`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:using-superpowers` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:using-superpowers` | plugin | local skill library path only | path-only | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions | 2026-08-13 | filesystem-derived | Present as skill `superpowers/using-superpowers`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:verification-before-completion` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:verification-before-completion` | plugin | local skill library path only | path-only | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always | 2026-08-13 | filesystem-derived | Present as skill `superpowers/verification-before-completion`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:writing-plans` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when you have a spec or requirements for a multi-step task, before touching code | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:writing-plans` | plugin | local skill library path only | path-only | Use when you have a spec or requirements for a multi-step task, before touching code | 2026-08-13 | filesystem-derived | Present as skill `superpowers/writing-plans`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `superpowers:writing-skills` | plugin | https://github.com/obra/superpowers | confirmed-session | Use when creating new skills, editing existing skills, or verifying skills work before deployment | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 plugin install/enable session. |
+| `superpowers:writing-skills` | plugin | local skill library path only | path-only | Use when creating new skills, editing existing skills, or verifying skills work before deployment | 2026-08-13 | filesystem-derived | Present as skill `superpowers/writing-skills`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `test-driven-development` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
 | `testing-for-xss-vulnerabilities` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Tests web applications for reflected, stored, and DOM-based Cross-Site | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `testing-ransomware-recovery-procedures` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Tests and validates ransomware recovery procedures - backup restore operations | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
